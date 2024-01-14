@@ -130,6 +130,7 @@ export const skillsData = [
   "Redux",
   "GraphQL",
   "AWS",
+  "Docker",
   "Express",
   "PostgreSQL",
   "Python",
