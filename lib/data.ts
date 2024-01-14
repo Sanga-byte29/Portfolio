@@ -43,9 +43,9 @@ export const experiencesData = [
     title: "Graduated Internship Trainee",
     location: "Ropar, India",
     description:[
-      "Working on the Industry Grade Project Using Ansys Digital TwinMode",
-      "Working on the simulation of photoelectric effect in ANSYS",
-      "Making Progress Report and Documentation for every month of given project for the final evaluation",
+      "•Working on the Industry Grade Project Using Ansys Digital TwinMode",
+      "•Working on the simulation of photoelectric effect in ANSYS",
+      "•Making Progress Report and Documentation for every month of given project for the final evaluation",
     ],
     icon: React.createElement(LuGraduationCap),
     date: "2019",
@@ -54,10 +54,10 @@ export const experiencesData = [
     title: "Front-End Developer Intern",
     location: "Gurgaon, India",
     description:[
-      "Designed and Developed a product called Briefly-Vendor.",
-      "Added some features like Chat-App in which client able to communicate with the Briefly Company.",
-      "Added a Calendar app in which company can schedule appointments with their clients in order to create a brief",
-      "Added notifications so that client will get notified whether he/she created a brief or not",
+      "•Designed and Developed a product called Briefly-Vendor.",
+      "•Added some features like Chat-App in which client able to communicate with the Briefly Company.",
+      "•Added a Calendar app in which company can schedule appointments with their clients in order to create a brief",
+      "•Added notifications so that client will get notified whether he/she created a brief or not",
     ],
     icon: React.createElement(FaReact),
     date: "2019 - 2021",
@@ -66,10 +66,10 @@ export const experiencesData = [
     title: "Full-Stack Developer Trainee",
     location: "Houston, TX",
     description: [
-        "Fixed bugs in the Stack Overflow clone project.",
-        "Learned NodeJS from the Training cum Internship program.",
-        "Added Chatbot to the project using Chatbot API.",
-        "Improved responsiveness for all mobile devices."
+        "•Fixed bugs in the Stack Overflow clone project.",
+        "•Learned NodeJS from the Training cum Internship program.",
+        "•Added Chatbot to the project using Chatbot API.",
+        "•Improved responsiveness for all mobile devices."
     ],
     icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
@@ -78,36 +78,44 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "NotePal",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    ["• An AI Note Taking app for Developers",
+      "• Users can create note and note will automatically get saved in the database",
+      "• Implemented OpenAI Plugin to autocomplete the notes"],
+    tags: ["React", "Next.js", "OpenAI", "Tailwind", "Clerk"],
     imageUrl: Image1,
   },
   {
-    title: "rmtDev",
+    title: "Shopify Creative Dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "• A fully functional creative dashboard for business purposes which has lots of features like CRUD and Drag and Drop , Calendar and graphs.",
+    tags: ["React", "Tailwind", "Syncfusion"],
     imageUrl: Image2,
   },
   {
-    title: "Word Analytics",
+    title: "Harmony - ECommerce Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "• A fullstack website where products can be ordered and placed and integrated with Stripe API",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
     imageUrl: Image3,
   },
 ] as const;
 
 export const achievementsData = [
-  {title: ""},
-  {title: ""},
-  {title: ""},
-  {title: ""},
+  {title: "Smart India Hackathon Hardware Edition 2022",
+description:[
+  "• My Team bagged 1st runner's up in Smart India Hackathon Hardware Edition 2022 held in Durg Chattisgarh",
+],
+},
+  {title: "Innominds Hackathon For Entrepreuners",
+description: "• My Team bagged 6th Rank out of Top 10 in Innominds Hancakton organised by Startup Odisha 2023",},
+  {title: " Global Rank - 1620",description: "• Secured in CodeChef Cookoff June 2021"},
+  {title: "Gold Medal ",description: "• Secured9 AIR - 362 in Computer Olympiad Silverzone"},
 ] as const
 
 export const skillsData = [
+  "C++",
   "HTML",
   "CSS",
   "JavaScript",
@@ -121,7 +129,7 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "AWS",
   "Express",
   "PostgreSQL",
   "Python",

@@ -19,7 +19,7 @@ const About = () => {
     >
       {/* <h2 className="text-3xl font-medium capitalize mb-8">About Me</h2> */}
       <SectionHeading>About Me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 dark:text-white-100">
         After graduating with a degree in{" "}
         <span className="font-medium">Electronics and Telecommunication</span>, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
